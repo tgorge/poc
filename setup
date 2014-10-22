@@ -1,0 +1,293 @@
+<!DOCTYPE html> <html> <head> <link rel="search" type="application/opensearchdescription+xml" href="https://help.github.com/opensearch.xml" title="GitHub:Help" /> <title> Set Up Git </title> <link rel="icon" type="image/x-icon" href="https://help.github.com/assets/images/site/favicon.ico"> <link rel="stylesheet" href="https://help.github.com/assets/stylesheets/application.css"> <script src="https://help.github.com/assets/application.js"></script> <script src="https://help.github.com/assets/application_cs.js"></script> <meta name="Description" content=" At the heart of GitHub is an open source version control system (VCS) called Git. Git is responsible for everything GitHub-related that happens locally on your computer. If you&#39;re not comfor…"> <script type="text/javascript"> $(function() { $('#quicksearch-query').lunrSearch({ indexUrl: '/search/search.json', quickSearchResults: '.autocomplete-results', quickSearchEntries: '.result-group', quickSearchTemplate: '#quicksearch-results-template', searchResults: '.search-container', searchEntries: '.search-results', searchTemplate: '#search-results-template' }); }); </script> <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-3769691-27']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> <meta http-equiv="Content-Type" content="text/html;charset=utf-8" /> </head> <body id="com" class="platform-switch platform-windows" cz-shortcut-listen="true"> <div id="not-footer"> <div id="header"> <div class="clearfix"> <h1 class="site-logo"><a href="https://help.github.com/">GitHub Help</a></h1> <ul class="top-nav"> <li><a href="https://github.com/contact">Contact Support</a></li> <li><a href="http://www.github.com/">Return to GitHub</a></li> </ul> </div> </div> <div id="content-wrapper"> <div class="site"> <div class="content-header small"> <h6 class="breadcrumbs"> <!-- hidden articles do not have categories --> <a href="https://help.github.com/categories/bootcamp"> Bootcamp </a> / Set Up Git </h6> <div class="search-form small"> <script id="quicksearch-results-template" type="text/mustache"> <div class="header"> <a class="initial quicksearch-seemore" href="https://help.github.com/search?q=">See more results</a> </div> {{#entries}} <tr class="article"> <td class="info"> <a href="https://help.github.com/articles/set-up-git/%7B%7Burl%7D%7D" class="js-articles-quicksearch-link">{{title}}</a> </td> </tr> {{/entries}} </script> <form accept-charset="UTF-8" action="https://help.github.com/search" id="articles-search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div> <div class="outer"> <div class="inner fade-label"> <input type="text" name="q" id="quicksearch-query" class="js-articles-quicksearch" placeholder="How can we help?"> <button><span class="octicon octicon-search"></span>Search</button> </div> </div> </form> <div class="autocomplete-results" style="display: none;"> <table class="result-group" border="0" cellpadding="0" cellspacing="0"> </table> </div> </div> <span class="last-updated-at">Article last updated on <span class="last-modified-at-date">22-Oct-14</span></span> </div> <div class="article js-hide-during-search"> <h2>Set Up Git</h2> <div id="article-platform-nav" style="display: block;"> <ul> <!-- http://bit.ly/TE6i98 --> <li class="platform-mac"> <a href="https://help.github.com/articles/set-up-git/#platform-mac" data-platform="mac"> mac </a> </li> <li class="platform-windows selected"> <a href="https://help.github.com/articles/set-up-git/#platform-windows" data-platform="windows"> windows </a> </li> <li class="platform-linux"> <a href="https://help.github.com/articles/set-up-git/#platform-linux" data-platform="linux"> linux </a> </li> <li class="platform-all"> <a href="https://help.github.com/articles/set-up-git/#platform-all" data-platform="all"> all </a> </li> </ul> </div> <div class="article-body content-body wikistyle markdown-format"> <div class="intro"> <p>At the heart of GitHub is an open source version control system (VCS) called <em><a href="https://help.github.com/articles/github-glossary#git">Git</a></em>. Git is responsible for everything GitHub-related that happens locally on your computer.</p> </div> <p>If you're not comfortable using the command line right now, GitHub lets you complete many Git-related actions <em>without</em> using the command line, including:</p> <ul> <li><a href="https://help.github.com/articles/create-a-repo">Creating a repository</a></li> <li><a href="https://help.github.com/articles/fork-a-repo">Forking a repository</a></li> <li><a href="https://help.github.com/articles/be-social">Being social</a></li> </ul> <p>However, if you find that you need to use Git, we can help you set it up!</p> <div class="platform-mac"> <div class="alert tip"> <p><strong>Tips:</strong></p> <ul> <li>GitHub has a <a href="https://mac.github.com/">Mac</a> client! You can use it without ever touching the command line.</li> <li>To learn more about Git, see "<a href="http://git-scm.com/book/en/Getting-Started-Git-Basics">Getting Started - Git Basics</a>" on the <a href="http://git-scm.com/">git-scm</a> website.</li> </ul> </div> </div> <div class="platform-windows"> <div class="alert tip"> <p><strong>Tips:</strong></p> <ul> <li>GitHub has a <a href="https://windows.github.com/">Windows</a> client! You can use it without ever touching the command line.</li> <li>To learn more about Git, see "<a href="http://git-scm.com/book/en/Getting-Started-Git-Basics">Getting Started - Git Basics</a>" on the <a href="http://git-scm.com/">git-scm</a> website.</li> </ul> </div> </div> <div class="platform-linux"> <div class="alert tip"> <p><strong>Tip:</strong> to learn more about Git, see "<a href="http://git-scm.com/book/en/Getting-Started-Git-Basics">Getting Started - Git Basics</a>" on the <a href="http://git-scm.com/">git-scm</a> website.</p> </div> </div> <div class="helper closed"> <h4 class="header"> <a name="input" class="anchor" href="https://help.github.com/articles/set-up-git/#input"><span class="octicon octicon-link"></span></a><a href="https://help.github.com/articles/set-up-git/#">Input</a> </h4> <div class="content" style="display: none;">Code blocks like those on this page are part of a scripting language called Bash. To use Bash scripts, we need to use an application that <span class="platform-mac">comes with your Mac called Terminal, usually found at /Applications/Utilities. <img alt="Open Terminal" src="https://github.s3.amazonaws.com/docs/bootcamp_1_mac_terminal.jpg"></span> <span class="platform-windows">was installed with Git called Git Bash. Git Bash can be found in the start menu under "Git".<img alt="Open Git Bash" src="https://github.s3.amazonaws.com/docs/bootcamp_1_win_gitbash.jpg"></span> <span class="platform-linux">comes with Linux called Terminal. <img alt="Open the terminal" src="https://github.s3.amazonaws.com/docs/bootcamp_1_linux_terminal.jpg"></span> <span class="platform-all">comes with your OS called the command line.</span><pre class="command-line"><span class="command">echo 'This is input text'</span>
+<span class="comment"># This tooltip tells you what's going on.</span>
+</pre><p>A line that begins with the dollar sign ($) indicates a line of Bash script you need to type. To enter it, type the text that follows the $, hitting the return key at the end of each line. You can hover your mouse over each line for an explanation of what the script is doing.</p> <h4> <a name="output" class="anchor" href="https://help.github.com/articles/set-up-git/#output"><span class="octicon octicon-link"></span></a>Output</h4><pre class="command-line"><span class="output"><span># </span>This is output text.</span>
+</pre><p>A line that does not begin with a $ is output text that is intended to give you information or tell you what to do next. We've colored output text green in these bootcamp tutorials.</p> <h4> <a name="user-specific-input" class="anchor" href="https://help.github.com/articles/set-up-git/#user-specific-input"><span class="octicon octicon-link"></span></a>User Specific Input</h4><pre class="command-line"><span class="command">echo '<em>username</em>'</span>
+<span class="comment"># Outputs the text in the quotation marks.</span>
+</pre>Areas of yellow text represent your own personal info, repos, etc. If it is part of an input ($) line, you should replace it with your own info when you type it. If it is part of output text, it is just for your reference. It will automatically show your own info in <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span>. <blockquote> <p>Good to know: There will be times when you type code, hit return, and all you are given is another prompt. Some actions that you execute in <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span> don't have any output. Don't worry, if there is ever a problem with your code, <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span> will let you know.</p> <p>For security reasons, <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span><span class="platform-all">the command line</span> will not display what you type when entering passwords. Just type your password and hit the return key.</p> </blockquote> </div> </div> <h3> <a name="setting-up-git" class="anchor" href="https://help.github.com/articles/set-up-git/#setting-up-git"><span class="octicon octicon-link"></span></a>Setting up Git</h3> <div class="platform-mac"> <ol> <li> <a href="http://git-scm.com/downloads">Download and install the latest version of Git</a>.</li> <li>On your computer, open the <strong>Terminal</strong> application.</li> <li> <p>Tell Git your <em>name</em> so your commits will be properly labeled. Type everything after the <code>$</code> here:</p><pre class="command-line"><span class="command">git config --global user.name "<em>YOUR NAME</em>"</span>
+</pre></li> <li> <p>Tell Git the <em>email address</em> that will be associated with your Git commits. The email you specify should be the same one you used to sign up for GitHub. To keep your email address hidden, see "<a href="https://help.github.com/articles/keeping-your-email-address-private">Keeping your email address private</a>".</p><pre class="command-line"><span class="command">git config --global user.email "<em>YOUR EMAIL ADDRESS</em>"</span>
+</pre></li> </ol> </div> <div class="platform-windows"> <ol> <li>Download and install the latest version of <a href="https://windows.github.com/">GitHub for Windows</a>. This will automatically install Git <em>and</em> keep it up-to-date for you.</li> <li>On your computer, open the <strong>Git Shell</strong> application.</li> <li> <p>Tell Git your <em>name</em> so your commits will be properly labeled. Type everything after the <code>$</code> here:</p><pre class="command-line"><span class="command">git config --global user.name "<em>YOUR NAME</em>"</span>
+</pre></li> <li> <p>Tell Git the <em>email address</em> that will be associated with your Git commits. The email you specify should be the same one you used to sign up for GitHub. To keep your email address hidden, see "<a href="https://help.github.com/articles/keeping-your-email-address-private">Keeping your email address private</a>".</p><pre class="command-line"><span class="command">git config --global user.email "<em>YOUR EMAIL ADDRESS</em>"</span>
+</pre></li> </ol> </div> <div class="platform-linux"> <ol> <li> <a href="http://git-scm.com/downloads">Download and install the latest version of Git</a>.</li> <li>On your computer, open the <strong>Terminal</strong> application.</li> <li> <p>Tell Git your <em>name</em> so your commits will be properly labeled. Type everything after the <code>$</code> here:</p><pre class="command-line"><span class="command">git config --global user.name "<em>YOUR NAME</em>"</span>
+</pre></li> <li> <p>Tell Git the <em>email address</em> that will be associated with your Git commits. The email you specify should be the same one you used to sign up for GitHub. To keep your email address hidden, see "<a href="https://help.github.com/articles/keeping-your-email-address-private">Keeping your email address private</a>".</p><pre class="command-line"><span class="command">git config --global user.email "<em>YOUR EMAIL ADDRESS</em>"</span>
+</pre></li> </ol> </div> <div class="platform-all"> <ol> <li> <a href="http://git-scm.com/downloads">Download and install the latest version of Git</a>.</li> <li>On your computer, open your command line application.</li> <li> <p>Tell Git your <em>name</em> so your commits will be properly labeled. Type everything after the <code>$</code> here:</p><pre class="command-line"><span class="command">git config --global user.name "<em>YOUR NAME</em>"</span>
+</pre></li> <li> <p>Tell Git the <em>email address</em> that will be associated with your Git commits. The email you specify should be the same one you used to sign up for GitHub. To keep your email address hidden, see "<a href="https://help.github.com/articles/keeping-your-email-address-private">Keeping your email address private</a>".</p><pre class="command-line"><span class="command">git config --global user.email "<em>YOUR EMAIL ADDRESS</em>"</span>
+</pre></li> </ol> </div> <h3> <a name="next-steps-authenticating-with-github-from-git" class="anchor" href="https://help.github.com/articles/set-up-git/#next-steps-authenticating-with-github-from-git"><span class="octicon octicon-link"></span></a>Next steps: Authenticating with GitHub from Git</h3> <p>When you connect to a GitHub repository from Git, you'll need to authenticate with GitHub using either HTTPS or SSH.</p> <h4> <a name="connecting-over-https-recommended" class="anchor" href="https://help.github.com/articles/set-up-git/#connecting-over-https-recommended"><span class="octicon octicon-link"></span></a>Connecting over HTTPS (recommended)</h4> <p>If you <a href="https://help.github.com/articles/which-remote-url-should-i-use#cloning-with-https-recommended">clone with HTTPS</a>, you can <a href="https://help.github.com/articles/caching-your-github-password-in-git">cache your GitHub password in Git</a> using a credential helper.</p> <h4> <a name="connecting-over-ssh" class="anchor" href="https://help.github.com/articles/set-up-git/#connecting-over-ssh"><span class="octicon octicon-link"></span></a>Connecting over SSH</h4> <p>If you <a href="https://help.github.com/articles/which-remote-url-should-i-use#cloning-with-ssh">clone with SSH</a>, you must <a href="https://help.github.com/articles/generating-ssh-keys">generate SSH keys</a> on each computer you use to push or pull from GitHub.</p> <h3> <a name="celebrate" class="anchor" href="https://help.github.com/articles/set-up-git/#celebrate"><span class="octicon octicon-link"></span></a>Celebrate</h3> <p>Congratulations, you now have Git and GitHub all set up! What do you want to do next?</p> <ul> <li><strong>Set Up Git</strong></li> <li><a href="https://help.github.com/articles/create-a-repo">Create A Repository</a></li> <li><a href="https://help.github.com/articles/fork-a-repo">Fork A Repository</a></li> <li><a href="https://help.github.com/articles/be-social">Be Social</a></li> </ul> </div> <div class="support-footer"> <hr> <ul class="article-footer button-nav"> <li> <a href="https://github.com/contact" class="minibutton"> <span class="octicon octicon-comment-discussion"></span> Contact a human </a> </li> </ul> </div> </div> <div class="clear"></div> </div> </div> </div> <div id="footer"> <div class="inner"> <a href="https://github.com/" class="invertocat"> <img alt="The GitHub Logo" src="https://help.github.com/assets/images/site/invertocat.png" width="24" height="24"> </a> <p class="left"> © <span id="year">2014</span> GitHub Inc. All rights reserved. </p> <ul class="links right"> <li><a href="https://help.github.com/terms-of-service">Terms of Service</a></li> <li><a href="https://help.github.com/privacy-policy">Privacy</a></li> <li><a href="https://help.github.com/security">Security</a></li> </ul> </div> </div>  
+<a style="display: none; " id="exifview-absolute-url-convert-proxy" href="https://help.github.com/articles/set-up-git/dummy"></a><div class="citateButton" style="display: none; position: absolute; left: 683px; top: 613px;"><div class="quoter_ui_toggle pre citeCommButton" data="citeComm" title="Add to nimbus"></div></div><div class="nimbus-qouter-qodiv" style="display: none; width: 700px; top: 0px; left: 0px;"><div class="nimbus_frame_global nimbus_frame_small" style="width: 740px; height: 400px; left: 929px; top: 455px;">
+  
+    <!-- nimbus_frame_top_user_menu -->
+    <div class="nimbus_frame_top_user_menu nimbus_frame_top_user_menu_panel">
+        <!-- nimbus_frame_top_user_menu_opened --- for open menu -->
+
+        <button type="button" class="nimbus_frame_button openOnline">
+            <span msg="popup_view_notes_online">View Notes Online</span>
+        </button>
+        <button type="button" class="nimbus_frame_button openHelp">
+            <span msg="popup_help">Help</span>
+        </button>
+        <button type="button" class="nimbus_frame_button openSettings">
+            <span msg="popup_settings">Settings</span>
+        </button>
+        <button type="button" class="nimbus_frame_button openContact">
+            <span msg="popup_contact_us">Contact Us</span>
+        </button>
+    </div>
+    <!-- /nimbus_frame_top_user_menu -->  
+  
+    <!-- nimbus_frame_top_action -->
+    <div class="nimbus_frame_top_action">
+        <div class="nimbus_frame_top_button nimbus_frame_top_button_arrow">
+            <span class="nimbus_frame_top_button_holder"></span>
+        </div>
+        <div class="nimbus_frame_top_button nimbus_frame_top_button_close">
+            <span class="nimbus_frame_top_button_holder deleteItem"></span>
+        </div>
+        <div class="nimbus_frame_top_button nimbus_frame_top_button_add">
+            <!-- nimbus_frame_top_button_menu_opened --- for open menu -->
+            <span class="nimbus_frame_top_button_holder  cite new"></span>
+        </div>
+        <div class="nimbus_frame_top_button nimbus_frame_top_button_folder">
+            <span class="nimbus_frame_top_button_holder addFolder"></span>
+            <!-- nimbus_frame_top_button_menu -->
+            <div class="nimbus_frame_top_button_menu">
+
+                <div class="nimbus_frame_top_button_menu_title" msg="popup_create_new_folder">Create new folder</div>
+                <div class="nimbus_frame_wysiwyg_text_holder">
+                    <input msg="popup_folder_name" msg_target="placeholder" type="text" value="" name="" class="folderNameElement" placeholder="Folder Name">
+                </div>
+                <span class="already_exists"></span>
+                <div class="nimbus_frame_top_button_menu_actions">
+                    <button type="button" class="nimbus_frame_button nimbus_frame_top_button_menu_left saveFolder">
+                        <span msg="popup_ok">OK</span>
+                    </button>
+                    <button type="button" class="nimbus_frame_button nimbus_frame_top_button_menu_right cancelFolder">
+                        <span msg="popup_cancel">Cancel</span>
+                    </button>
+                </div>
+
+            </div>
+            <!-- /nimbus_frame_top_button_menu -->
+        </div>
+        <div class="nimbus_frame_top_button nimbus_frame_top_button_update">
+            <span class="nimbus_frame_top_button_holder citeBtnSync"></span>
+        </div>
+    </div>
+    <!-- /nimbus_frame_top_action -->
+    <!-- nimbus frame top -->
+    <div class="nimbus_frame_top">
+        <!-- nimbus_frame_top_logo -->
+        <div class="nimbus_frame_top_logo">
+            <span></span>
+        </div>
+        <!-- /nimbus_frame_top_logo -->
+        
+        <div id="nimbus_note_more_apps">
+          <span msg="popup_also_available_on">Also available on:</span>
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.bvblogic.nimbusnote"><img data-nmbsnote-src="https://help.github.com/images/app_android.png"></a>
+          <a target="_blank" href="https://itunes.apple.com/us/app/nimbus-note-notes-and-todo/id828918459?ls=1&amp;mt=8"><img data-nmbsnote-src="https://help.github.com/images/app_ios.png"></a>  
+          <a target="_blank" href="http://www.windowsphone.com/en-us/store/app/nimbus-note/30656348-a9d2-4a2e-bb9c-6b6074531c0e"><img data-nmbsnote-src="https://help.github.com/images/app_win.png"></a>
+          <div title="Don't show it again." class="nimbus-close"></div>    
+        </div>
+        
+        <!-- nimbus_frame_top_user -->
+        <div class="nimbus_frame_top_user">
+            <div class="nimbus_frame_top_user_menu_button"></div>
+            <span class="nimbus_frame_top_user_name" msg="popup_welcome_message"><span class="nimbus-welcome-user">Welcome,</span> <strong id="nimbus_username">tallulah.gorge@yahoo.com</strong></span>
+        </div>
+        <!-- /nimbus_frame_top_user -->
+        
+        <!-- nimbus frame small top buttons -->
+        <div class="nimbus_frame_small_top_buttons">
+            <div class="nimbus_frame_small_top_button nimbus_frame_small_top_button_view"></div>
+            <div class="nimbus_frame_small_top_button nimbus_frame_small_top_button_close"></div>
+        </div>
+        <!-- /nimbus frame small top buttons -->
+
+    </div>
+    <!-- /nimbus frame top -->
+    <!-- nibus frame sidebar -->
+    <div class="nimbus_frame_sidebar">
+        <div class="nimbus_frame_sidebar_wrapper">
+            <div class="nimbus_frame_search">
+                <div class="nimbus_frame_search_wrapper">
+                    <!-- nimbus_frame_sidebar_toggle -->
+                    <div class="nimbus_frame_sidebar_toggle"></div>
+                    <!-- nimbus_frame_sidebar_toggle -->
+                    <div class="nimbus_frame_search_form">
+
+                        <input msg="popup_search" msg_target="placeholder" type="text" name="" value="" class="nimbus_frame_search_text" placeholder="Search">
+                        <div class="nimbus_frame_search_clear">
+                            <input type="button" name="" value="">
+                        </div>
+                        <div class="nimbus_frame_search_submit">
+                            <input type="submit" name="" value="" class="searchButton">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="nimbus_frame_folders_global">
+                <div class="nimbus_frame_folders">
+                </div>
+                <!-- nimbus frame folder -->
+                <div class="nimbus_frame_folder nimbus_frame_folder_trash nimbus_frame_folder_opened">
+                    <div class="nimbus_frame_folder_top nimbus_frame_trash_header">
+                        <div class="nimbus_frame_folder_title" msg="popup_trash">Trash</div>
+                        <!--div class="nimbus_frame_folder_count">
+                          <div><span>148</span></div>
+                          </div-->
+                    </div>
+                    <div class="nimbus_frame_folder_content"></div>
+                </div>
+                <!-- /nimbus frame folder -->
+            </div>
+        </div>
+    </div>
+    <!-- /nimbus frame sidebar -->
+    <!-- nimbus frame title -->
+    <div class="nimbus_frame_title">
+        <div class="nimbus_frame_padding_wrapper">
+            <div class="nimbus_frame_wysiwyg">
+
+                <div class="nimbus_frame_wysiwyg_text">
+                    <div class="nimbus_frame_wysiwyg_text_wrapper">
+                        <div class="nimbus_frame_wysiwyg_text_holder">
+                            <input msg="popup_note_title" msg_target="placeholder" type="text" name="" value="" class="qoTitle" placeholder="Note Title">
+                        </div>
+                    </div>
+                </div>
+                <div class="nimbus_frame_wysiwyg_actions">
+                    <div class="nimbus_frame_wysiwyg_actions_wrapper">
+                        <button type="button" class="nimbus_frame_wysiwyg_button nimbus_frame_wysiwyg_bold"></button>
+                        <button type="button" class="nimbus_frame_wysiwyg_button nimbus_frame_wysiwyg_italic"></button>
+                        <button type="button" class="nimbus_frame_wysiwyg_button nimbus_frame_wysiwyg_underline"></button>
+                        <button type="button" class="nimbus_frame_wysiwyg_button nimbus_frame_wysiwyg_cross"></button>
+                        <button type="button" class="nimbus_frame_wysiwyg_button nimbus_frame_wysiwyg_link"></button>
+                        <button type="button" class="nimbus_frame_wysiwyg_button nimbus_frame_wysiwyg_share"></button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /nimbus frame title -->
+    <!-- nimbus frame tag -->
+    <div class="nimbus_frame_tag">
+        <div class="nimbus_frame_padding_wrapper">
+
+            <div class="nimbus_frame_tag_form">
+                <button type="submit" class="nimbus_frame_wysiwyg_button nimbus_frame_tag_button" disabled=""></button>
+                <div class="nimbus_frame_wysiwyg_text_holder">
+                    <input msg="popup_add_tag" msg_target="placeholder" type="text" name="" value="" class="tagsIn" placeholder="add Tag">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- /nimbus frame tag -->
+    <!-- nimbus frame content -->
+    <div class="nimbus_frame_content">
+        <div class="nimbus_frame_padding_wrapper">
+            <div class="nimbus_frame_content_wrapper">
+                <iframe title="" style="border: none;width:100%;height:100%; text-align:left;" class="qoTa iframe">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <!-- /nimbus frame content -->
+</div>
+
+<div class="ui-widget-overlay rate_overlay"></div>
+<div class="nimbus_frame_top_user_menu rate_panel">
+    <!-- nimbus_frame_top_user_menu_opened --- for open menu -->
+    <div style="clear: both;height: 23px;">
+        <div style="color: #19a1bb;text-align: center;font-size: 14pt;cursor: pointer;right: 30px;position: absolute;left: 0px;" msg="popup_rate_nimbus_note">Love Nimbus Note ? Please Rate It!</div>
+        <div style="text-align: center;font-size: 14pt;cursor: pointer;float: right;margin-right: 10px;" class="rateAlreadyDid">X</div>
+    </div>
+
+    <button type="button" class="nimbus_frame_button rateBad">
+        <span msg="popup_rate_bad">Bad</span>
+    </button>
+    <button type="button" class="nimbus_frame_button rateMightBeBetter">
+        <span msg="popup_rate_might_be_better">Might be better</span>
+    </button>
+    <button type="button" class="nimbus_frame_button rateGood">
+        <span msg="popup_rate_good">Good!</span>
+    </button>
+    <button type="button" class="nimbus_frame_button rateAlreadyDid">
+        <span msg="popup_rate_already_did">Already did</span>
+    </button>
+</div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all _trafficLimitDialog" tabindex="-1" role="dialog" aria-labelledby="ui-id-1" style="display: none; outline: 0px; z-index: 1000;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">&nbsp;</span><a href="https://help.github.com/articles/set-up-git/#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="trafficLimitDialog ui-dialog-content ui-widget-content" style="width: 700px; margin: 0px; top: 0px; left: 0px; padding: 0px; background-color: rgb(255, 255, 255);"><div class="nimbus_frame_popup nimbus_frame_popup_note_link">
+    <div class="nimbus_frame_popup_form">
+        <div class="nimbus_frame_top_button_menu_title" msg="popup_limit_purchase_pro">You have reached your monthly traffic limit. To continue, you have to
+            purchase Nimbus Pro.</div>
+        <div class="nimbus_frame_popup_actions">
+            <button type="button" class="nimbus_frame_button go_to_pro"><span msg="popup_go_nimbus_pro">Go to Nimbus Pro</span></button>
+            <button type="button" class="nimbus_frame_button cancel_traffic_limit_dialog"><span msg="popup_no_thanks">No, Thanks</span></button>
+        </div>
+    </div>
+</div></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all shareDialog" tabindex="-1" role="dialog" aria-labelledby="ui-id-2" style="display: none; outline: 0px; z-index: 1000;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-2" class="ui-dialog-title">&nbsp;</span><a href="https://help.github.com/articles/set-up-git/#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="shareLinkDialog ui-dialog-content ui-widget-content" style="width: 700px; margin: 0px; top: 200px; left: 0px; padding: 0px; background-color: rgb(255, 255, 255);"><div class="nimbus_frame_popup nimbus_frame_popup_note_link">
+    <div class="nimbus_frame_popup_form">
+        <div class="nimbus_frame_top_button_menu_title" msg="popup_note_link">Note link</div>
+        <div class="nimbus_frame_popup_fields">
+            <div class="nimbus_frame_wysiwyg_text_holder">
+                <input type="text" placeholder="Link name" class="sharedLinkText">
+            </div>
+        </div>
+        <div class="nimbus_frame_popup_actions">
+            <button type="button" class="nimbus_frame_button copyToClipboard"><span msg="popup_copy_to_clipboard">Copy to Clipboard</span></button>
+            <button type="button" class="nimbus_frame_button ok_button"><span msg="popup_ok">OK</span></button>
+        </div>
+    </div>
+</div></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all newFolderPromtDialog" tabindex="-1" role="dialog" aria-labelledby="ui-id-3" style="display: none; outline: 0px; z-index: 1000;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-3" class="ui-dialog-title">&nbsp;</span><a href="https://help.github.com/articles/set-up-git/#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="newFolderDialog ui-dialog-content ui-widget-content" style="width: 700px; margin: 0px; top: 200px; left: 0px; padding: 0px; background-color: rgb(255, 255, 255);"><!-- nimbus_frame_top_button_menu -->
+                <div class="nimbus_frame_top_button_menu">
+                    <form method="" name="" action="">
+                        <div msg="popup_create_new_folder" class="nimbus_frame_top_button_menu_title">Create new folder</div>
+                        <div class="nimbus_frame_wysiwyg_text_holder">
+                            <input type="text" placeholder="Note Title" value="" name="" class="folderNameElement">
+                        </div>
+                        <div class="nimbus_frame_top_button_menu_actions">
+                            <button type="button" class="nimbus_frame_button nimbus_frame_top_button_menu_left saveFolder">
+                                <span msg="popup_ok">OK</span>
+                            </button>
+                            <button type="button" class="nimbus_frame_button nimbus_frame_top_button_menu_right cancelFolder">
+                                <span msg="popup_cancel">Cancel</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /nimbus_frame_top_button_menu --> </div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all addLinkPromtDialog" tabindex="-1" role="dialog" aria-labelledby="ui-id-4" style="display: none; outline: 0px; z-index: 1000;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-4" class="ui-dialog-title">&nbsp;</span><a href="https://help.github.com/articles/set-up-git/#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="addLinkDialog ui-dialog-content ui-widget-content" style="width: 700px; margin: 0px; top: 200px; left: 0px; padding: 0px; background-color: rgb(255, 255, 255);"><!-- link popup -->
+<div class="nimbus_frame_popup">
+    <div class="nimbus_frame_popup_form">
+        <div class="nimbus_frame_top_button_menu_title" msg="popup_ad_link">Add link</div>
+        <div class="nimbus_frame_popup_fields">
+            <div class="nimbus_frame_wysiwyg_text_holder">
+                <input msg="popup_link_name" msg_target="placeholder" type="text" class="linkAddressElement" style="z-index: 1000000" placeholder="Link name">
+            </div>
+        </div>
+        <div class="nimbus_frame_popup_actions">
+            <button type="button" class="nimbus_frame_button nimbus_frame_top_button_menu_left saveLink"><span msg="popup_ok">OK</span></button>
+            <button type="button" class="nimbus_frame_button nimbus_frame_top_button_menu_right cancelLink"><span msg="popup_cancel">Cancel</span></button>
+        </div>
+    </div>
+</div>
+<!-- /link popup --> </div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all informationMessageDialog" tabindex="-1" role="dialog" aria-labelledby="ui-id-5" style="display: none; outline: 0px; z-index: 1000;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-5" class="ui-dialog-title">&nbsp;</span><a href="https://help.github.com/articles/set-up-git/#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="informationDialog ui-dialog-content ui-widget-content" style="width: 700px; margin: 0px; top: 200px; left: 0px; padding: 0px; background-color: rgb(255, 255, 255);"><!-- sync popup -->
+<div class="nimbus_frame_popup">
+	<div class="nimbus_frame_popup_form">
+		<div class="nimbus_frame_top_button_menu_title quoter_alert_error_text" msg="popup_sync_success">Synchronization complete successfuly!</div>
+		<div class="nimbus_frame_popup_actions">
+			<button type="button" class="nimbus_frame_button nimbus_frame_top_button_menu_left  cancelMessageDialog">
+				<span class="alert_dialog_button" msg="popup_ok">OK</span>
+			</button>
+		</div>
+	</div>
+</div>
+<!-- /sync popup --> </div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all _syncAlertDialog" tabindex="-1" role="dialog" aria-labelledby="ui-id-6" style="display: none; outline: 0px; z-index: 1000;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-6" class="ui-dialog-title">&nbsp;</span><a href="https://help.github.com/articles/set-up-git/#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="syncAlertDialog ui-dialog-content ui-widget-content" style="width: 700px; margin: 0px; top: 0px; left: 0px; padding: 0px; background-color: rgb(255, 255, 255);"><div class="nimbus_frame_popup nimbus_frame_popup_note_link">
+    <div class="nimbus_frame_popup_form">
+        <div class="nimbus_frame_top_button_menu_title" msg="popup_please_sync_before_share">Please sync your notes before sharing.</div>
+        <div class="nimbus_frame_popup_actions">
+            <button type="button" class="nimbus_frame_button sync_now_button"><span msg="popup_sync_now">Sync Now</span></button>
+            <button type="button" class="nimbus_frame_button cancel_dialog"><span msg="popup_cancel">Cancel</span></button>
+        </div>
+    </div>
+</div></div></div><div id="naptha_container0932014_0707" style="position: absolute; top: 0px; left: 0px;"></div></body> </html>
